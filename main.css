@@ -1,7 +1,7 @@
 #textBody {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
@@ -32,3 +32,56 @@
 .fa:hover {
     opacity: 0.7;
 }
+
+body{
+    background-color: #120e07;
+    color:#ffce54;
+}
+#clock{
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top:  10%;
+    left: 35%;
+}
+#clock h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+.clock-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+  .clock-items{
+      width: 32%;
+      background-color: #464646;
+      color:#ffce54;
+      border-radius: 10px;
+      text-align: center;
+      margin-right: 3%;
+      padding-top:30px;
+      padding-bottom: 30px;
+      font-size: 70px;
+      letter-spacing: 5px;
+      font-family: 'Orbitron', sans-serif;
+
+
+  }
+  .clock-items p{
+      margin:0;
+      padding:0;
+      border-radius: 5px;;
+  }
+  p{
+      text-align: center;
+  }
+  #date{
+      font-size: 20px;
+      font-family: 'Bebas Neue', cursive;
+  }
+  
+  
